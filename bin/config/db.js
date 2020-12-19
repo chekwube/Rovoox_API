@@ -24,10 +24,3 @@ module.exports = function init() {
         throw new Error("DB URI not found, please kindly check your connection strings to mongoose");
     }
 }
-
-/**
- * Seeding logic for database should go here
- */
-function seedDatabase() {
-
-}
